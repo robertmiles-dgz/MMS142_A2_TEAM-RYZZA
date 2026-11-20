@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What's the Tee? - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Urbanist:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="bothbars">
+      <nav class="navbar md:navbar-expand py-2 px-3" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand wtt d-flex align-items-center gap-2 brandpink fw-bold flex-shrink-0" href="index.html" style="line-height: 1.1;">
+            <img src="images/wttlogo.png" alt="What's The Tee? Logo" style="height: 40px; width: auto;">
+            <span>What's<br>the Tee?</span>
+          </a>
+
+          <button class="btn-icon navbar-toggler" type="button"
+                  data-bs-toggle="drawer" data-bs-target="#mainNav"
+                  aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+
+          <dialog class="drawer drawer-end" tabindex="-1" id="mainNav" aria-labelledby="mainNavLabel">
+            <div class="drawer-header">
+              <h5 class="drawer-title brandpink" id="mainNavLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+            </div>
+            <div class="drawer-body d-flex flex-column md:flex-row align-items-center justify-content-between w-100">
+              <ul class="nav navbar-nav wttlinks flex-column md:flex-row md:mx-auto gap-2 md:gap-4 my-2 md:my-0">
+                <li class="nav-item"><a class="nav-link navlink active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="#shop">Shop</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="privacy.html">Privacy</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="terms.html">Terms</a></li>
+              </ul>
+
+              <div class="d-flex align-items-center gap-4 mt-3 md:mt-0 flex-shrink-0">
+                <a href="#shop" aria-label="Search"><img src="images/search.png" alt="Search" class="topbtns"></a>
+                <a href="#shop" aria-label="Cart"><img src="images/cart.png" alt="Cart" class="topbtns"></a>
+              </div>
+            </div>
+          </dialog>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-grow-1">
+      <section class="wttcover text-center py-5">
+        <div class="container py-4">
+          <h1 class="display-4 fw-bold tagline mb-2">
+            Simple T-Shirts<br>for Everyday Life
+          </h1>
+          <p class="subtag mb-4">Comfortable shirts. Simple ideas. We're just getting started.</p>
+          <a href="#shop" class="seeshirts-link" aria-label="See shirts">
+            <img src="images/seeshirts.png" alt="See shirts button" class="seeshirts-img">
+          </a>
+        </div>
+      </section>
+
+      <section class="shop py-5 text-center" id="shop">
+        <div class="container">
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 md:col-4">
+              <div class="teebox mb-3">
+                <img src="images/shirt1a.png" alt="Don't Be Late Tee shirt mockup" style="width: 100%;">
+                <div>
+                  <a href="product1.html" class="viewbtn">view</a>
+                </div>
+              </div>
+              <p class="hometitle mb-0 fw-medium">Don't Be Late Tee</p>
+              <div class="homeprice">₱499</div>
+            </div>
+
+            <div class="col-12 md:col-4">
+              <div class="teebox mb-3">
+                <img src="images/shirt2a.png" alt="Everyday Comfort Tee shirt mockup" style="width: 100%;">
+                <div>
+                  <a href="product2.html" class="viewbtn">view</a>
+                </div>
+              </div>
+              <p class="hometitle mb-0 fw-medium">Everyday Comfort Tee</p>
+              <div class="homeprice">₱499</div>
+            </div>
+
+            <div class="col-12 md:col-4">
+              <div class="teebox mb-3">
+                <img src="images/shirt3a.png" alt="Do Good Work Tee shirt mockup" style="width: 100%;">
+                <div>
+                  <a href="product3.html" class="viewbtn">view</a>
+                </div>
+              </div>
+              <p class="hometitle mb-0 fw-medium">Do Good Work Tee</p>
+              <div class="homeprice">₱499</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-area py-5" id="about">
+        <div class="container">
+          <div class="row g-4 align-items-center mb-5">
+            <div class="col-12 md:col-6 md:px-4">
+              <h2 class="about-title text-center mb-3">About Us</h2>
+              <p class="storytxts">Welcome to What's the Tee?, where comfort meets everyday style.</p>
+              <p class="storytxts">We started with a simple mission: to create the perfect t-shirt. You know the one: the first shirt you reach for in your closet, the one that fits just right and feels like an old favorite from day one.</p>
+              <p class="storytxts">We believe that what you wear should speak to who you are. That's why we combine premium, ultra-soft fabrics with unique designs that help you express your individuality. Whether you're dressing it up, keeping it casual, or just lounging at home, our tees are made to move with you.</p>
+              <p class="storytxts mb-0">Thank you for being a part of our journey. We can't wait to see how you style What's the Tee?</p>
+            </div>
+            <div class="col-12 md:col-6">
+              <img src="images/image1.png" alt="Friends wearing What's the Tee shirts outdoors" class="mowdelspic">
+            </div>
+          </div>
+
+          <div class="row g-4 align-items-center">
+            <div class="col-12 md:col-6 order-2 md:order-1">
+              <img src="images/image2.png" alt="Models sitting on grass wearing casual tees" class="mowdelspic">
+            </div>
+            <div class="col-12 md:col-6 order-1 md:order-2 text-center md:text-start md:px-4">
+              <p class="storytxts">At What's the Tee?, we believe that every great outfit starts with a conversation, and every shirt has a story to tell. Born out of a passion for authentic expression and everyday comfort, our brand was created to give your wardrobe a voice without sacrificing quality. Whether you are looking for a subtle statement, a bold graphic drop, or a witty design that turns heads, we craft apparel designed to fit seamlessly into your daily rotation while celebrating who you are.</p>
+              <p class="storytxts mb-0">Every piece at What's the Tee? is thoughtfully designed and made with premium, ultra-soft cotton blends that feel incredible against your skin from day one. We prioritize durable, eco-friendly printing methods to ensure our graphics stay vibrant, wash after wash, without cracking or peeling. Beyond high quality apparel, we are dedicated to building a community centered around individuality, self-expression, and effortless street style for every body. From effortless unisex fits to dependable, feel-good comfort, we are here to help you spill the style, make a statement, and show the world What's the Tee.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bothbars py-4 mt-auto">
+      <div class="container">
+        <ul class="nav wttlinks gap-4 mb-2">
+          <li class="nav-item"><a class="nav-link navlink p-0" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="privacy.html">Privacy</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="terms.html">Terms</a></li>
+        </ul>
+        <small class="brandpink d-block" style="font-size: 0.72rem; font-family: 'Inter', sans-serif !important;">Copyright &copy; 2026 What's the Tee?</small>
+      </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+  </body>
+</html>
