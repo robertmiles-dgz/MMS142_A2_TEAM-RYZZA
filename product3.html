@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WTT Do Good Work Tee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Urbanist:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shirt.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="bothbars">
+      <nav class="navbar md:navbar-expand py-2 px-3" aria-label="Main navigation">
+        <div class="container-fluid px-2">
+          <a class="navbar-brand wtt d-flex align-items-center gap-2 brandpink fw-bold flex-shrink-0" href="index.html">
+            <img src="images/wttlogo.png" alt="What's The Tee? Logo" class="brand-logo">
+            <span class="brand-text">What's<br>the Tee?</span>
+          </a>
+
+          <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+
+          <dialog class="drawer drawer-end" tabindex="-1" id="mainNav" aria-labelledby="mainNavLabel">
+            <div class="drawer-header">
+              <h5 class="drawer-title brandpink" id="mainNavLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+            </div>
+            <div class="drawer-body d-flex flex-column md:flex-row align-items-center justify-content-between w-100">
+              <ul class="nav navbar-nav wttlinks flex-column md:flex-row md:mx-auto gap-2 md:gap-4 my-2 md:my-0">
+                <li class="nav-item"><a class="nav-link navlink" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link navlink active" aria-current="page" href="index.html#shop">Shop</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="index.html#about">About</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="privacy.html">Privacy</a></li>
+                <li class="nav-item"><a class="nav-link navlink" href="terms.html">Terms</a></li>
+              </ul>
+
+              <div class="d-flex align-items-center gap-4 mt-3 md:mt-0 flex-shrink-0">
+                <a href="index.html#shop" aria-label="Search"><img src="images/search.png" alt="Search" class="topbtns"></a>
+                <a href="index.html#shop" aria-label="Cart"><img src="images/cart.png" alt="Cart" class="topbtns"></a>
+              </div>
+            </div>
+          </dialog>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-5 my-auto" id="shirtOrder" data-shirt-name="Do Good Work Tee" data-shirt-price="499">
+      <div class="row g-4 align-items-center justify-content-center">
+        <div class="col-12 md:col-6">
+          <div class="t-frame text-center">
+            <img src="images/shirt3.png" alt="Do Good Work Tee" class="t-photo">
+          </div>
+        </div>
+
+        <div class="col-12 md:col-6 px-4 md:px-5">
+          <h1 class="t-name mb-1">Do Good Work Tee</h1>
+          <div class="t-price mb-4">Php 499.00</div>
+
+          <div class="mb-3">
+            <span class="options d-block mb-2">Size:</span>
+            <div class="d-flex flex-wrap gap-4">
+              <button type="button" class="sizes">S</button>
+              <button type="button" class="sizes">M</button>
+              <button type="button" class="sizes">L</button>
+              <button type="button" class="sizes">XL</button>
+              <button type="button" class="sizes active">2XL</button>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <span class="options d-block mb-2">Quantity:</span>
+            <div class="qtys">
+              <button type="button" class="qty-step qty-minus" aria-label="Decrease quantity">&minus;</button>
+              <span class="qty-count">1</span>
+              <button type="button" class="qty-step qty-plus" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+
+          <div>
+            <a id="orderLink" href="mailto:orders@examplewebsite142.com?subject=Order:%20Do%20Good%20Work%20Tee">
+              <img src="images/orderna.png" alt="Order Now" class="orderbtn">
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bothbars py-4 px-3 mt-auto">
+      <div class="container-fluid px-2">
+        <ul class="nav wttlinks gap-4 mb-2">
+          <li class="nav-item"><a class="nav-link navlink p-0" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="privacy.html">Privacy</a></li>
+          <li class="nav-item"><a class="nav-link navlink p-0" href="terms.html">Terms</a></li>
+        </ul>
+        <small class="brandpink copyright-text">Copyright &copy; 2026 What's The Tee?</small>
+      </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <script src="js/order.js"></script>
+  </body>
+</html>
